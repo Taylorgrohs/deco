@@ -20,23 +20,38 @@ img {
   float: left;
   width: 30%;
   padding-left: 30px;
+  background-color: yellow;
+  height: 750px;
 
 }
 
 .img1, .img2, .img3 {
   float: left;
   width: 45%;
+
 }
 
 .text1, .text2, .text3 {
   padding-left: 150px;
   font-size: 25px;
   text-decoration: underline;
+
 }
 
-.during, .after {
+.during {
   float: left;
   width: 30%;
   border-left: thick solid #000000;
   padding-left: 50px;
+  background-color: lightgreen;
+  height: 750px;
+}
+
+.after {
+  float: left;
+  width: 30%;
+  border-left: thick solid #000000;
+  padding-left: 50px;
+  background-color: lightblue;
+  height: 750px;
 }
